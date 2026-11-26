@@ -1,0 +1,141 @@
+{
+  "prices_usd_per_mtok": {
+    "input": 0.0,
+    "output": 0.0
+  },
+  "rule_local_kinds": [
+    "pii"
+  ],
+  "classifier_threshold": null,
+  "dev": {
+    "all-local": {
+      "accuracy": 0.6071,
+      "cloud_share": 0.0,
+      "cost_usd": 0,
+      "latency_p50_s": 0.053,
+      "latency_p95_s": 0.894,
+      "n": 140
+    },
+    "all-cloud": {
+      "accuracy": 0.8214,
+      "cloud_share": 0.8571,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.201,
+      "latency_p95_s": 4.144,
+      "n": 140
+    },
+    "rule": {
+      "accuracy": 0.8214,
+      "cloud_share": 0.8571,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.201,
+      "latency_p95_s": 4.144,
+      "n": 140
+    },
+    "second-only": {
+      "accuracy": 0.8214,
+      "cloud_share": 1.0,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.241,
+      "latency_p95_s": 4.144,
+      "n": 140
+    }
+  },
+  "test": {
+    "all-local": {
+      "accuracy": 0.6,
+      "cloud_share": 0.0,
+      "cost_usd": 0,
+      "latency_p50_s": 0.051,
+      "latency_p95_s": 1.073,
+      "n": 140
+    },
+    "all-cloud": {
+      "accuracy": 0.7857,
+      "cloud_share": 0.8571,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.213,
+      "latency_p95_s": 5.497,
+      "n": 140
+    },
+    "rule": {
+      "accuracy": 0.7857,
+      "cloud_share": 0.8571,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.213,
+      "latency_p95_s": 5.497,
+      "n": 140
+    },
+    "second-only": {
+      "accuracy": 0.7929,
+      "cloud_share": 1.0,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.238,
+      "latency_p95_s": 5.497,
+      "n": 140
+    }
+  },
+  "test_by_kind": {
+    "all-local": {
+      "jcqa": 0.525,
+      "jsquad": 0.875,
+      "mgsm": 0.225,
+      "pii": 0.95
+    },
+    "all-cloud": {
+      "jcqa": 0.775,
+      "jsquad": 0.85,
+      "mgsm": 0.65,
+      "pii": 0.95
+    },
+    "rule": {
+      "jcqa": 0.775,
+      "jsquad": 0.85,
+      "mgsm": 0.65,
+      "pii": 0.95
+    },
+    "second-only": {
+      "jcqa": 0.775,
+      "jsquad": 0.85,
+      "mgsm": 0.65,
+      "pii": 1.0
+    }
+  },
+  "test_diff_ci95": {
+    "all-cloud - all-local": {
+      "diff": 0.1857,
+      "lo": 0.1,
+      "hi": 0.2786
+    },
+    "rule - all-local": {
+      "diff": 0.1857,
+      "lo": 0.1,
+      "hi": 0.2786
+    },
+    "second-only - all-local": {
+      "diff": 0.1929,
+      "lo": 0.1,
+      "hi": 0.2786
+    },
+    "rule - all-cloud": {
+      "diff": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "second-only - all-cloud": {
+      "diff": 0.0071,
+      "lo": 0.0,
+      "hi": 0.0214
+    },
+    "second-only - rule": {
+      "diff": 0.0071,
+      "lo": 0.0,
+      "hi": 0.0214
+    }
+  },
+  "inputs": [
+    "out/e2_local_qwen2.5-1.5b-instruct-cuda-gpu_4.jsonl",
+    "out/e2_local_qwen3-8b-cuda-gpu_2_nothink.jsonl"
+  ],
+  "jsquad_scoring": "containment"
+}

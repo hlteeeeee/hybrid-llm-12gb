@@ -1,0 +1,92 @@
+{
+  "runtime": "foundry-local-cuda",
+  "model": "qwen2.5-7b-instruct-cuda-gpu:4",
+  "base_url": "http://127.0.0.1:7796/v1",
+  "max_tokens": 256,
+  "runs": 3,
+  "vram_idle_mb": 2512,
+  "vram_after_load_mb": 7909,
+  "load_s": 1.7,
+  "ep_registration": "All EPs registered",
+  "model_file_size_mb": 4843,
+  "vram_peak_mb": 9707,
+  "summary_median": {
+    "short": {
+      "ttft_s": 0.0567,
+      "prompt_tokens_per_s_from_ttft": 741.3,
+      "gen_tokens_per_s": 106.1
+    },
+    "long": {
+      "ttft_s": 0.3903,
+      "prompt_tokens_per_s_from_ttft": 3584.3,
+      "gen_tokens_per_s": 100.4
+    }
+  },
+  "runs_raw": {
+    "short": [
+      {
+        "ttft_s": 0.0798,
+        "total_s": 2.278,
+        "prompt_tokens": 42,
+        "completion_tokens": 256,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 526.5,
+        "gen_tokens_per_s": 116.0,
+        "text_head": " 1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1.1"
+      },
+      {
+        "ttft_s": 0.0567,
+        "total_s": 0.113,
+        "prompt_tokens": 42,
+        "completion_tokens": 7,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 741.3,
+        "gen_tokens_per_s": 106.1,
+        "text_head": "日本の首都は東京です。"
+      },
+      {
+        "ttft_s": 0.0557,
+        "total_s": 0.113,
+        "prompt_tokens": 42,
+        "completion_tokens": 7,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 753.5,
+        "gen_tokens_per_s": 105.4,
+        "text_head": "日本の首都は東京です。"
+      }
+    ],
+    "long": [
+      {
+        "ttft_s": 0.3903,
+        "total_s": 1.051,
+        "prompt_tokens": 1399,
+        "completion_tokens": 67,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 3584.3,
+        "gen_tokens_per_s": 100.0,
+        "text_head": "ハイブリッドLLMでは、機密データや軽いタスクはローカルGPUで処理し、難しい推論はクラウドの大型モデルに送ります。これによりAPI費用と遅延を抑えながら、必要な場面では高品質な結果を得られます。"
+      },
+      {
+        "ttft_s": 0.3903,
+        "total_s": 1.04,
+        "prompt_tokens": 1399,
+        "completion_tokens": 67,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 3584.1,
+        "gen_tokens_per_s": 101.6,
+        "text_head": "ハイブリッドLLMでは、機密データや軽いタスクはローカルGPUで処理し、難しい推論はクラウドの大型モデルに送ります。これによりAPI費用と遅延を抑えながら、必要な場面では高品質な結果を得られます。"
+      },
+      {
+        "ttft_s": 0.3778,
+        "total_s": 1.035,
+        "prompt_tokens": 1399,
+        "completion_tokens": 67,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 3702.8,
+        "gen_tokens_per_s": 100.4,
+        "text_head": "ハイブリッドLLMでは、機密データや軽いタスクはローカルGPUで処理し、難しい推論はクラウドの大型モデルに送ります。これによりAPI費用と遅延を抑えながら、必要な場面では高品質な結果を得られます。"
+      }
+    ]
+  },
+  "model_vram_mb": 7195
+}

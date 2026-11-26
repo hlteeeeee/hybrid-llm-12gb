@@ -1,0 +1,158 @@
+{"config": "breaker", "phase": "1:up", "sent_at_s": 0.0, "id": "jsquad-a384286p1q3", "total_s": 1.113, "prompt_tokens": 314, "completion_tokens": 34, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 1.5, "id": "jsquad-a18873p15q0", "total_s": 0.233, "prompt_tokens": 151, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 2.0, "id": "jsquad-a113522p22q3", "total_s": 0.357, "prompt_tokens": 235, "completion_tokens": 20, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 2.5, "id": "jsquad-a2664357p11q3", "total_s": 0.261, "prompt_tokens": 151, "completion_tokens": 13, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 3.0, "id": "jsquad-a4596p36q2", "total_s": 0.24, "prompt_tokens": 252, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 3.5, "id": "jsquad-a4596p35q3", "total_s": 0.25, "prompt_tokens": 147, "completion_tokens": 13, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 4.0, "id": "jsquad-a208520p0q0", "total_s": 0.244, "prompt_tokens": 121, "completion_tokens": 10, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 4.5, "id": "jsquad-a1540503p12q3", "total_s": 0.256, "prompt_tokens": 130, "completion_tokens": 10, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 5.0, "id": "jsquad-a14985p166q2", "total_s": 0.239, "prompt_tokens": 249, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 5.5, "id": "jsquad-a2664357p14q3", "total_s": 0.244, "prompt_tokens": 156, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 6.0, "id": "jsquad-a18873p0q0", "total_s": 0.21, "prompt_tokens": 196, "completion_tokens": 7, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 6.5, "id": "jsquad-a205453p0q1", "total_s": 0.232, "prompt_tokens": 186, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 7.0, "id": "jsquad-a4596p63q0", "total_s": 0.237, "prompt_tokens": 152, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 7.5, "id": "jsquad-a2164640p1q1", "total_s": 0.264, "prompt_tokens": 272, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 8.0, "id": "jsquad-a13221p4q1", "total_s": 0.242, "prompt_tokens": 161, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 8.51, "id": "jsquad-a2164640p16q3", "total_s": 0.187, "prompt_tokens": 114, "completion_tokens": 8, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 9.0, "id": "jsquad-a113522p21q3", "total_s": 0.353, "prompt_tokens": 161, "completion_tokens": 19, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "1:up", "sent_at_s": 9.5, "id": "jsquad-a258209p7q1", "total_s": 0.171, "prompt_tokens": 127, "completion_tokens": 6, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 10.0, "id": "jsquad-a10336p40q3", "total_s": 3.218, "prompt_tokens": 192, "completion_tokens": 8, "where": "local:fallback", "cloud_wait_s": 3.016, "cloud_error": "APITimeoutError", "correct": false}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 13.5, "id": "jsquad-a113522p18q2", "total_s": 3.265, "prompt_tokens": 250, "completion_tokens": 11, "where": "local:fallback", "cloud_wait_s": 3.015, "cloud_error": "APITimeoutError", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 17.0, "id": "jsquad-a1540503p22q3", "total_s": 0.233, "prompt_tokens": 174, "completion_tokens": 11, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 17.5, "id": "jsquad-a111914p2q2", "total_s": 0.204, "prompt_tokens": 136, "completion_tokens": 9, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 18.0, "id": "jsquad-a1698820p21q2", "total_s": 0.189, "prompt_tokens": 228, "completion_tokens": 6, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 18.51, "id": "jsquad-a13221p18q3", "total_s": 0.2, "prompt_tokens": 204, "completion_tokens": 7, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 19.0, "id": "jsquad-a81930p0q4", "total_s": 0.185, "prompt_tokens": 109, "completion_tokens": 8, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 19.5, "id": "jsquad-a10336p13q0", "total_s": 0.192, "prompt_tokens": 130, "completion_tokens": 8, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 20.0, "id": "jsquad-a111367p37q1", "total_s": 0.188, "prompt_tokens": 161, "completion_tokens": 7, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 20.5, "id": "jsquad-a497360p1q3", "total_s": 0.232, "prompt_tokens": 179, "completion_tokens": 11, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 21.0, "id": "jsquad-a8874p6q0", "total_s": 0.163, "prompt_tokens": 99, "completion_tokens": 6, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 21.5, "id": "jsquad-a14985p97q4", "total_s": 0.187, "prompt_tokens": 205, "completion_tokens": 6, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 22.0, "id": "jsquad-a51481p2q3", "total_s": 3.191, "prompt_tokens": 172, "completion_tokens": 6, "where": "local:fallback", "cloud_wait_s": 3.013, "cloud_error": "APITimeoutError", "correct": false}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 25.5, "id": "jsquad-a29627p18q1", "total_s": 0.203, "prompt_tokens": 229, "completion_tokens": 7, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 26.0, "id": "jsquad-a10336p46q3", "total_s": 0.228, "prompt_tokens": 141, "completion_tokens": 11, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 26.5, "id": "jsquad-a113522p24q3", "total_s": 0.197, "prompt_tokens": 224, "completion_tokens": 7, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 27.0, "id": "jsquad-a1540503p42q1", "total_s": 0.18, "prompt_tokens": 134, "completion_tokens": 7, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 27.5, "id": "jsquad-a203796p9q0", "total_s": 0.226, "prompt_tokens": 259, "completion_tokens": 8, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 28.0, "id": "jsquad-a393195p0q3", "total_s": 0.188, "prompt_tokens": 177, "completion_tokens": 7, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 28.5, "id": "jsquad-a14985p178q0", "total_s": 0.192, "prompt_tokens": 133, "completion_tokens": 8, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 29.0, "id": "jsquad-a18873p12q1", "total_s": 0.465, "prompt_tokens": 100, "completion_tokens": 34, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "2:hang", "sent_at_s": 29.5, "id": "jsquad-a111367p6q0", "total_s": 0.198, "prompt_tokens": 189, "completion_tokens": 8, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 30.0, "id": "jcqa-9642", "total_s": 2.202, "prompt_tokens": 86, "completion_tokens": 5, "where": "local:fallback", "cloud_wait_s": 2.044, "cloud_error": "APIConnectionError", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 32.5, "id": "jcqa-9314", "total_s": 0.154, "prompt_tokens": 85, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 33.0, "id": "jcqa-9872", "total_s": 0.15, "prompt_tokens": 84, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 33.5, "id": "jcqa-8976", "total_s": 0.151, "prompt_tokens": 90, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 34.0, "id": "jcqa-9193", "total_s": 0.123, "prompt_tokens": 86, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 34.51, "id": "jcqa-9803", "total_s": 0.154, "prompt_tokens": 94, "completion_tokens": 5, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 35.0, "id": "jcqa-9770", "total_s": 0.157, "prompt_tokens": 83, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 35.51, "id": "jcqa-9360", "total_s": 0.153, "prompt_tokens": 96, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 36.0, "id": "jcqa-9499", "total_s": 0.154, "prompt_tokens": 82, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 36.5, "id": "jcqa-9929", "total_s": 0.123, "prompt_tokens": 84, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 37.0, "id": "jcqa-9113", "total_s": 0.155, "prompt_tokens": 88, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "3:down", "sent_at_s": 37.5, "id": "jcqa-9928", "total_s": 2.194, "prompt_tokens": 87, "completion_tokens": 5, "where": "local:fallback", "cloud_wait_s": 2.038, "cloud_error": "APIConnectionError", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 40.01, "id": "jcqa-9955", "total_s": 0.125, "prompt_tokens": 86, "completion_tokens": 5, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 40.5, "id": "jcqa-8961", "total_s": 0.122, "prompt_tokens": 86, "completion_tokens": 5, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 41.01, "id": "jcqa-9171", "total_s": 0.156, "prompt_tokens": 79, "completion_tokens": 5, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 41.51, "id": "jcqa-9347", "total_s": 0.124, "prompt_tokens": 82, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 42.01, "id": "jcqa-9110", "total_s": 0.123, "prompt_tokens": 86, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 42.5, "id": "jcqa-9970", "total_s": 0.123, "prompt_tokens": 83, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 43.0, "id": "jcqa-9999", "total_s": 0.123, "prompt_tokens": 85, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 43.5, "id": "jcqa-10046", "total_s": 0.123, "prompt_tokens": 86, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 44.0, "id": "jcqa-9763", "total_s": 0.154, "prompt_tokens": 92, "completion_tokens": 5, "where": "local:breaker-open", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 44.5, "id": "jcqa-9068", "total_s": 0.154, "prompt_tokens": 81, "completion_tokens": 5, "where": "local:breaker-open", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 45.0, "id": "jcqa-9188", "total_s": 0.153, "prompt_tokens": 87, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 45.5, "id": "jcqa-9833", "total_s": 0.196, "prompt_tokens": 91, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 46.0, "id": "jcqa-9966", "total_s": 0.185, "prompt_tokens": 92, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 46.5, "id": "jcqa-9617", "total_s": 0.18, "prompt_tokens": 90, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 47.0, "id": "jcqa-9852", "total_s": 0.189, "prompt_tokens": 96, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 47.5, "id": "jcqa-9796", "total_s": 0.168, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 48.0, "id": "jcqa-9324", "total_s": 0.157, "prompt_tokens": 83, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 48.5, "id": "jcqa-9588", "total_s": 0.183, "prompt_tokens": 90, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 49.0, "id": "jcqa-9359", "total_s": 0.186, "prompt_tokens": 85, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 49.5, "id": "jcqa-9842", "total_s": 0.18, "prompt_tokens": 92, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 50.0, "id": "jcqa-9729", "total_s": 0.186, "prompt_tokens": 106, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 50.5, "id": "jcqa-9285", "total_s": 0.206, "prompt_tokens": 96, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 51.01, "id": "jcqa-9537", "total_s": 0.156, "prompt_tokens": 94, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 51.51, "id": "jcqa-9139", "total_s": 0.191, "prompt_tokens": 89, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 52.0, "id": "jcqa-9595", "total_s": 0.172, "prompt_tokens": 83, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 52.5, "id": "jcqa-9469", "total_s": 0.167, "prompt_tokens": 101, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 53.0, "id": "jcqa-9707", "total_s": 0.172, "prompt_tokens": 87, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 53.5, "id": "jcqa-9759", "total_s": 0.182, "prompt_tokens": 88, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 54.0, "id": "jsquad-a384286p1q3", "total_s": 0.55, "prompt_tokens": 314, "completion_tokens": 34, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 55.0, "id": "jsquad-a18873p15q0", "total_s": 0.235, "prompt_tokens": 151, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 55.51, "id": "jsquad-a113522p22q3", "total_s": 0.361, "prompt_tokens": 235, "completion_tokens": 20, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 56.0, "id": "jsquad-a2664357p11q3", "total_s": 0.279, "prompt_tokens": 151, "completion_tokens": 13, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 56.5, "id": "jsquad-a4596p36q2", "total_s": 0.254, "prompt_tokens": 252, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 57.0, "id": "jsquad-a4596p35q3", "total_s": 0.271, "prompt_tokens": 147, "completion_tokens": 13, "where": "cloud", "correct": false}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 57.5, "id": "jsquad-a208520p0q0", "total_s": 0.227, "prompt_tokens": 121, "completion_tokens": 10, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 58.0, "id": "jsquad-a1540503p12q3", "total_s": 0.22, "prompt_tokens": 130, "completion_tokens": 10, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 58.5, "id": "jsquad-a14985p166q2", "total_s": 0.242, "prompt_tokens": 249, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 59.0, "id": "jsquad-a2664357p14q3", "total_s": 0.221, "prompt_tokens": 156, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "breaker", "phase": "4:up", "sent_at_s": 59.5, "id": "jsquad-a18873p0q0", "total_s": 0.205, "prompt_tokens": 196, "completion_tokens": 7, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 0.0, "id": "jsquad-a384286p1q3", "total_s": 0.527, "prompt_tokens": 314, "completion_tokens": 34, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 1.0, "id": "jsquad-a18873p15q0", "total_s": 0.238, "prompt_tokens": 151, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 1.52, "id": "jsquad-a113522p22q3", "total_s": 0.365, "prompt_tokens": 235, "completion_tokens": 20, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 2.0, "id": "jsquad-a2664357p11q3", "total_s": 0.262, "prompt_tokens": 151, "completion_tokens": 13, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 2.5, "id": "jsquad-a4596p36q2", "total_s": 0.243, "prompt_tokens": 252, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 3.0, "id": "jsquad-a4596p35q3", "total_s": 0.255, "prompt_tokens": 147, "completion_tokens": 13, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 3.5, "id": "jsquad-a208520p0q0", "total_s": 0.213, "prompt_tokens": 121, "completion_tokens": 10, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 4.0, "id": "jsquad-a1540503p12q3", "total_s": 0.238, "prompt_tokens": 130, "completion_tokens": 10, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 4.52, "id": "jsquad-a14985p166q2", "total_s": 0.264, "prompt_tokens": 249, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 5.0, "id": "jsquad-a2664357p14q3", "total_s": 0.228, "prompt_tokens": 156, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 5.5, "id": "jsquad-a18873p0q0", "total_s": 0.235, "prompt_tokens": 196, "completion_tokens": 7, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 6.0, "id": "jsquad-a205453p0q1", "total_s": 0.23, "prompt_tokens": 186, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 6.5, "id": "jsquad-a4596p63q0", "total_s": 0.21, "prompt_tokens": 152, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 7.0, "id": "jsquad-a2164640p1q1", "total_s": 0.261, "prompt_tokens": 272, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 7.5, "id": "jsquad-a13221p4q1", "total_s": 0.234, "prompt_tokens": 161, "completion_tokens": 9, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 8.0, "id": "jsquad-a2164640p16q3", "total_s": 0.213, "prompt_tokens": 114, "completion_tokens": 8, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 8.5, "id": "jsquad-a113522p21q3", "total_s": 0.338, "prompt_tokens": 161, "completion_tokens": 19, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 9.0, "id": "jsquad-a258209p7q1", "total_s": 0.198, "prompt_tokens": 127, "completion_tokens": 6, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "1:up", "sent_at_s": 9.5, "id": "jsquad-a10336p40q3", "total_s": 0.237, "prompt_tokens": 192, "completion_tokens": 8, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "2:hang", "sent_at_s": 10.0, "id": "jsquad-a113522p18q2", "total_s": 3.291, "prompt_tokens": 250, "completion_tokens": 11, "where": "local:fallback", "cloud_wait_s": 3.029, "cloud_error": "APITimeoutError", "correct": true}
+{"config": "no-breaker", "phase": "2:hang", "sent_at_s": 13.5, "id": "jsquad-a1540503p22q3", "total_s": 3.254, "prompt_tokens": 174, "completion_tokens": 11, "where": "local:fallback", "cloud_wait_s": 3.017, "cloud_error": "APITimeoutError", "correct": false}
+{"config": "no-breaker", "phase": "2:hang", "sent_at_s": 17.0, "id": "jsquad-a111914p2q2", "total_s": 3.226, "prompt_tokens": 136, "completion_tokens": 9, "where": "local:fallback", "cloud_wait_s": 3.015, "cloud_error": "APITimeoutError", "correct": true}
+{"config": "no-breaker", "phase": "2:hang", "sent_at_s": 20.5, "id": "jsquad-a1698820p21q2", "total_s": 3.206, "prompt_tokens": 228, "completion_tokens": 6, "where": "local:fallback", "cloud_wait_s": 3.01, "cloud_error": "APITimeoutError", "correct": true}
+{"config": "no-breaker", "phase": "2:hang", "sent_at_s": 24.0, "id": "jsquad-a13221p18q3", "total_s": 3.215, "prompt_tokens": 204, "completion_tokens": 7, "where": "local:fallback", "cloud_wait_s": 3.009, "cloud_error": "APITimeoutError", "correct": true}
+{"config": "no-breaker", "phase": "2:hang", "sent_at_s": 27.5, "id": "jsquad-a81930p0q4", "total_s": 3.202, "prompt_tokens": 109, "completion_tokens": 8, "where": "local:fallback", "cloud_wait_s": 3.01, "cloud_error": "APITimeoutError", "correct": true}
+{"config": "no-breaker", "phase": "3:down", "sent_at_s": 31.0, "id": "jsquad-a10336p13q0", "total_s": 2.239, "prompt_tokens": 130, "completion_tokens": 8, "where": "local:fallback", "cloud_wait_s": 2.041, "cloud_error": "APIConnectionError", "correct": true}
+{"config": "no-breaker", "phase": "3:down", "sent_at_s": 33.5, "id": "jsquad-a111367p37q1", "total_s": 2.238, "prompt_tokens": 161, "completion_tokens": 7, "where": "local:fallback", "cloud_wait_s": 2.043, "cloud_error": "APIConnectionError", "correct": true}
+{"config": "no-breaker", "phase": "3:down", "sent_at_s": 36.0, "id": "jsquad-a497360p1q3", "total_s": 2.279, "prompt_tokens": 179, "completion_tokens": 11, "where": "local:fallback", "cloud_wait_s": 2.037, "cloud_error": "APIConnectionError", "correct": true}
+{"config": "no-breaker", "phase": "3:down", "sent_at_s": 38.5, "id": "jsquad-a8874p6q0", "total_s": 2.217, "prompt_tokens": 99, "completion_tokens": 6, "where": "local:fallback", "cloud_wait_s": 2.046, "cloud_error": "APIConnectionError", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 41.0, "id": "jsquad-a14985p97q4", "total_s": 0.22, "prompt_tokens": 205, "completion_tokens": 6, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 41.5, "id": "jsquad-a51481p2q3", "total_s": 0.202, "prompt_tokens": 172, "completion_tokens": 6, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 42.0, "id": "jsquad-a29627p18q1", "total_s": 0.226, "prompt_tokens": 229, "completion_tokens": 7, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 42.5, "id": "jsquad-a10336p46q3", "total_s": 0.245, "prompt_tokens": 141, "completion_tokens": 11, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 43.0, "id": "jsquad-a113522p24q3", "total_s": 0.222, "prompt_tokens": 224, "completion_tokens": 7, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 43.5, "id": "jsquad-a1540503p42q1", "total_s": 0.201, "prompt_tokens": 134, "completion_tokens": 7, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 44.0, "id": "jsquad-a203796p9q0", "total_s": 0.254, "prompt_tokens": 259, "completion_tokens": 8, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 44.5, "id": "jsquad-a393195p0q3", "total_s": 0.212, "prompt_tokens": 177, "completion_tokens": 7, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 45.0, "id": "jsquad-a14985p178q0", "total_s": 0.225, "prompt_tokens": 133, "completion_tokens": 8, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 45.5, "id": "jsquad-a18873p12q1", "total_s": 0.484, "prompt_tokens": 100, "completion_tokens": 34, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 46.0, "id": "jsquad-a111367p6q0", "total_s": 0.232, "prompt_tokens": 189, "completion_tokens": 8, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 46.5, "id": "jcqa-9642", "total_s": 0.184, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 47.0, "id": "jcqa-9314", "total_s": 0.182, "prompt_tokens": 85, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 47.5, "id": "jcqa-9872", "total_s": 0.184, "prompt_tokens": 84, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 48.0, "id": "jcqa-8976", "total_s": 0.179, "prompt_tokens": 90, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 48.5, "id": "jcqa-9193", "total_s": 0.178, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 49.0, "id": "jcqa-9803", "total_s": 0.172, "prompt_tokens": 94, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 49.5, "id": "jcqa-9770", "total_s": 0.159, "prompt_tokens": 83, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 50.02, "id": "jcqa-9360", "total_s": 0.158, "prompt_tokens": 96, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 50.5, "id": "jcqa-9499", "total_s": 0.177, "prompt_tokens": 82, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 51.0, "id": "jcqa-9929", "total_s": 0.171, "prompt_tokens": 84, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 51.5, "id": "jcqa-9113", "total_s": 0.17, "prompt_tokens": 88, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 52.0, "id": "jcqa-9928", "total_s": 0.188, "prompt_tokens": 87, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 52.5, "id": "jcqa-9955", "total_s": 0.186, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 53.0, "id": "jcqa-8961", "total_s": 0.182, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 53.5, "id": "jcqa-9171", "total_s": 0.158, "prompt_tokens": 79, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 54.0, "id": "jcqa-9347", "total_s": 0.183, "prompt_tokens": 82, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 54.5, "id": "jcqa-9110", "total_s": 0.179, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 55.0, "id": "jcqa-9970", "total_s": 0.171, "prompt_tokens": 83, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 55.5, "id": "jcqa-9999", "total_s": 0.173, "prompt_tokens": 85, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 56.0, "id": "jcqa-10046", "total_s": 0.187, "prompt_tokens": 86, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 56.5, "id": "jcqa-9763", "total_s": 0.161, "prompt_tokens": 92, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 57.0, "id": "jcqa-9068", "total_s": 0.175, "prompt_tokens": 81, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 57.5, "id": "jcqa-9188", "total_s": 0.16, "prompt_tokens": 87, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 58.0, "id": "jcqa-9833", "total_s": 0.162, "prompt_tokens": 91, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 58.5, "id": "jcqa-9966", "total_s": 0.199, "prompt_tokens": 92, "completion_tokens": 5, "where": "cloud", "correct": false}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 59.0, "id": "jcqa-9617", "total_s": 0.181, "prompt_tokens": 90, "completion_tokens": 5, "where": "cloud", "correct": true}
+{"config": "no-breaker", "phase": "4:up", "sent_at_s": 59.5, "id": "jcqa-9852", "total_s": 0.171, "prompt_tokens": 96, "completion_tokens": 5, "where": "cloud", "correct": true}

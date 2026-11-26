@@ -1,0 +1,202 @@
+[
+  {
+    "variant": "qwen2.5-1.5b-instruct-cuda-gpu:4",
+    "catalog_mb": 1280,
+    "f_free_mb_before": 9120,
+    "wall_s": 24,
+    "exit_code": 0,
+    "load_s": 1.4,
+    "vram_idle_mb": 2512,
+    "vram_after_load_mb": 4837,
+    "vram_peak_mb": 5547,
+    "model_vram_mb": 3035,
+    "model_file_size_mb": 1280,
+    "short": {
+      "ttft_s": 0.0247,
+      "prompt_tokens_per_s_from_ttft": 1700.4,
+      "gen_tokens_per_s": 299.7
+    },
+    "long": {
+      "ttft_s": 0.0938,
+      "prompt_tokens_per_s_from_ttft": 14913.9,
+      "gen_tokens_per_s": 270.5
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\qwen2.5-1.5b-instruct-cuda-gpu-4\\v4"
+    ]
+  },
+  {
+    "variant": "qwen3-4b-cuda-gpu:2",
+    "catalog_mb": 2692,
+    "f_free_mb_before": 10094,
+    "wall_s": 14,
+    "exit_code": 0,
+    "load_s": 1.8,
+    "vram_idle_mb": 864,
+    "vram_after_load_mb": 5238,
+    "vram_peak_mb": 6140,
+    "model_vram_mb": 5276,
+    "model_file_size_mb": 2692,
+    "short": {
+      "ttft_s": 0.0627,
+      "prompt_tokens_per_s_from_ttft": 334.7,
+      "gen_tokens_per_s": 142.3
+    },
+    "long": {
+      "ttft_s": 0.2563,
+      "prompt_tokens_per_s_from_ttft": 5376.0,
+      "gen_tokens_per_s": 135.3
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-4b-cuda-gpu-2\\v2"
+    ]
+  },
+  {
+    "variant": "Phi-4-mini-instruct-cuda-gpu:5",
+    "catalog_mb": 3686,
+    "f_free_mb_before": 9116,
+    "wall_s": 53,
+    "exit_code": 0,
+    "load_s": 2.4,
+    "vram_idle_mb": 2512,
+    "vram_after_load_mb": 6885,
+    "vram_peak_mb": 9323,
+    "model_vram_mb": 6811,
+    "model_file_size_mb": 3686,
+    "short": {
+      "ttft_s": 0.0739,
+      "prompt_tokens_per_s_from_ttft": 270.5,
+      "gen_tokens_per_s": 81.9
+    },
+    "long": {
+      "ttft_s": 0.2687,
+      "prompt_tokens_per_s_from_ttft": 5561.1,
+      "gen_tokens_per_s": 120.4
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\Phi-4-mini-instruct-cuda-gpu-5\\v5"
+    ]
+  },
+  {
+    "variant": "qwen2.5-7b-instruct-cuda-gpu:4",
+    "catalog_mb": 4843,
+    "f_free_mb_before": 9116,
+    "wall_s": 71,
+    "exit_code": 0,
+    "load_s": 1.7,
+    "vram_idle_mb": 2512,
+    "vram_after_load_mb": 7909,
+    "vram_peak_mb": 9707,
+    "model_vram_mb": 7195,
+    "model_file_size_mb": 4843,
+    "short": {
+      "ttft_s": 0.0567,
+      "prompt_tokens_per_s_from_ttft": 741.3,
+      "gen_tokens_per_s": 106.1
+    },
+    "long": {
+      "ttft_s": 0.3903,
+      "prompt_tokens_per_s_from_ttft": 3584.3,
+      "gen_tokens_per_s": 100.4
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\qwen2.5-7b-instruct-cuda-gpu-4\\v4"
+    ]
+  },
+  {
+    "variant": "qwen3-8b-cuda-gpu:2",
+    "catalog_mb": 5674,
+    "f_free_mb_before": 10096,
+    "wall_s": 94,
+    "exit_code": 0,
+    "load_s": 1.9,
+    "vram_idle_mb": 2512,
+    "vram_after_load_mb": 9955,
+    "vram_peak_mb": 10855,
+    "model_vram_mb": 8343,
+    "model_file_size_mb": 5674,
+    "short": {
+      "ttft_s": 0.1179,
+      "prompt_tokens_per_s_from_ttft": 178.1,
+      "gen_tokens_per_s": 91.8
+    },
+    "long": {
+      "ttft_s": 0.4479,
+      "prompt_tokens_per_s_from_ttft": 3076.5,
+      "gen_tokens_per_s": 89.5
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-8b-cuda-gpu-2\\v2"
+    ]
+  },
+  {
+    "variant": "Phi-4-cuda-gpu:2",
+    "catalog_mb": 8570,
+    "f_free_mb_before": 10095,
+    "wall_s": 114,
+    "exit_code": 0,
+    "load_s": 1.6,
+    "vram_idle_mb": 2512,
+    "vram_after_load_mb": 11373,
+    "vram_peak_mb": 11713,
+    "model_vram_mb": 9201,
+    "model_file_size_mb": 8570,
+    "short": {
+      "ttft_s": 0.145,
+      "prompt_tokens_per_s_from_ttft": 186.3,
+      "gen_tokens_per_s": 59.9
+    },
+    "long": {
+      "ttft_s": 1.196,
+      "prompt_tokens_per_s_from_ttft": 1739.1,
+      "gen_tokens_per_s": 61.3
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\Phi-4-cuda-gpu-2\\v2"
+    ]
+  },
+  {
+    "variant": "qwen3-14b-cuda-gpu:2",
+    "catalog_mb": 9302,
+    "f_free_mb_before": 11442,
+    "wall_s": 137,
+    "exit_code": 0,
+    "load_s": 2.3,
+    "vram_idle_mb": 865,
+    "vram_after_load_mb": 11380,
+    "vram_peak_mb": 11734,
+    "model_vram_mb": 10869,
+    "model_file_size_mb": 9302,
+    "short": {
+      "ttft_s": 0.1633,
+      "prompt_tokens_per_s_from_ttft": 128.6,
+      "gen_tokens_per_s": 57.5
+    },
+    "long": {
+      "ttft_s": 0.7718,
+      "prompt_tokens_per_s_from_ttft": 1785.4,
+      "gen_tokens_per_s": 54.3
+    },
+    "status": "ok",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-14b-cuda-gpu-2\\v2"
+    ]
+  },
+  {
+    "variant": "gpt-oss-20b-cuda-gpu:1",
+    "catalog_mb": 0,
+    "f_free_mb_before": 14143,
+    "wall_s": 139,
+    "exit_code": 1,
+    "status": "failed (exit 1); see capacity_gpt-oss-20b-cuda-gpu_1.log",
+    "parked": [
+      "<park>/zenn-hybrid-llm-models\\Microsoft\\gpt-oss-20b-cuda-gpu-1\\v1"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+jsquad-a29627p18q1 {'same prompt again': (1, [7, 7, 7, 7, 7]), 'after another prompt': (1, [7, 7, 7, 7, 7])}
+mgsm-54 {'same prompt again': (1, [170, 170, 170, 170, 170]), 'after another prompt': (2, [170, 170, 173, 170, 170])}
+jsquad-a18873p12q1 {'same prompt again': (2, [35, 34, 34, 34, 34]), 'after another prompt': (1, [34, 34, 34, 34, 34])}
+jcqa-9763 {'same prompt again': (1, [5, 5, 5, 5, 5]), 'after another prompt': (1, [5, 5, 5, 5, 5])}
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-8b-cuda-gpu-2\\v2']
+wrote <project>\out\diag\repeat_qwen3-8b-cuda-gpu_2.json

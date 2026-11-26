@@ -1,0 +1,26 @@
+1/280
+21/280
+41/280
+61/280
+81/280
+101/280
+121/280
+141/280
+161/280
+181/280
+201/280
+221/280
+241/280
+261/280
+{
+ "jcqa/dev": "32/40",
+ "jcqa/test": "31/40",
+ "jsquad/dev": "34/40",
+ "jsquad/test": "28/40",
+ "mgsm/dev": "27/40",
+ "mgsm/test": "26/40",
+ "pii/dev": "20/20",
+ "pii/test": "19/20"
+}
+wrote <project>\out\e2_local_qwen3-8b-cuda-gpu_2_nothink.jsonl
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-8b-cuda-gpu-2\\v2']

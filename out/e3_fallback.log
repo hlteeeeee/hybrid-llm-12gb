@@ -1,0 +1,177 @@
+breaker 1:up 0.0 cloud 0.635
+breaker 1:up 1.0 cloud 0.522
+breaker 1:up 2.0 cloud 2.496
+breaker 1:up 5.0 cloud 0.152
+breaker 1:up 5.5 cloud 0.209
+breaker 1:up 6.0 cloud 3.788
+breaker 1:up 10.0 cloud 0.17
+breaker 2:hang 10.5 local:fallback 3.359
+breaker 2:hang 14.0 local:fallback 6.867
+breaker 2:hang 21.0 local:breaker-open 0.154
+breaker 2:hang 21.5 local:breaker-open 0.249
+breaker 2:hang 22.0 local:breaker-open 1.563
+breaker 2:hang 24.0 local:fallback 3.161
+breaker 2:hang 27.5 local:breaker-open 0.224
+breaker 2:hang 28.0 local:breaker-open 1.776
+breaker 2:hang 30.0 local:breaker-open 0.152
+breaker 3:up 30.5 local:breaker-open 0.246
+breaker 3:up 31.0 local:breaker-open 1.746
+breaker 3:up 33.0 cloud 0.165
+breaker 3:up 33.5 cloud 0.223
+breaker 3:up 34.015 cloud 1.203
+breaker 3:up 35.5 cloud 0.17
+breaker 3:up 36.015 cloud 0.219
+breaker 3:up 36.5 cloud 1.238
+breaker 3:up 38.0 cloud 0.171
+breaker 3:up 38.5 cloud 0.239
+breaker 3:up 39.0 cloud 2.674
+breaker 3:up 42.015 cloud 0.177
+breaker 3:up 42.5 cloud 0.236
+breaker 3:up 43.0 cloud 3.402
+breaker 4:down 46.5 local:fallback 1.171
+breaker 4:down 48.0 local:fallback 1.21
+breaker 4:down 49.515 local:breaker-open 4.341
+breaker 4:down 54.0 local:breaker-open 0.154
+breaker 4:down 54.5 local:fallback 1.221
+breaker 4:down 56.015 local:breaker-open 1.378
+breaker 4:down 57.5 local:breaker-open 0.158
+breaker 4:down 58.0 local:breaker-open 0.206
+breaker 4:down 58.5 local:breaker-open 1.769
+breaker 5:up 60.515 cloud 0.152
+breaker 5:up 61.0 cloud 0.25
+breaker 5:up 61.515 cloud 2.434
+breaker 5:up 64.0 cloud 0.183
+breaker 5:up 64.5 cloud 0.235
+breaker 5:up 65.0 cloud 1.786
+breaker 5:up 67.0 cloud 0.153
+breaker 5:up 67.515 cloud 0.202
+breaker 5:up 68.015 cloud 3.967
+breaker 5:up 72.015 cloud 0.174
+breaker 5:up 72.5 cloud 0.337
+breaker 5:up 73.0 cloud 5.529
+no-breaker 1:up 0.0 cloud 0.166
+no-breaker 1:up 0.5 cloud 0.53
+no-breaker 1:up 1.5 cloud 2.757
+no-breaker 1:up 4.5 cloud 0.178
+no-breaker 1:up 5.0 cloud 0.209
+no-breaker 1:up 5.5 cloud 3.749
+no-breaker 1:up 9.5 cloud 0.172
+no-breaker 1:up 10.0 cloud 0.365
+no-breaker 2:hang 10.5 local:fallback 6.833
+no-breaker 2:hang 17.5 local:fallback 3.167
+no-breaker 2:hang 21.0 local:fallback 3.273
+no-breaker 2:hang 24.5 local:fallback 4.596
+no-breaker 2:hang 29.5 local:fallback 0.914
+no-breaker 3:up 30.5 cloud 0.286
+no-breaker 3:up 31.0 cloud 1.737
+no-breaker 3:up 33.015 cloud 0.176
+no-breaker 3:up 33.5 cloud 0.252
+no-breaker 3:up 34.0 cloud 1.781
+no-breaker 3:up 36.0 cloud 0.173
+no-breaker 3:up 36.5 cloud 0.237
+no-breaker 3:up 37.0 cloud 1.208
+no-breaker 3:up 38.5 cloud 0.176
+no-breaker 3:up 39.0 cloud 5.756
+no-breaker 3:up 45.0 cloud 1.255
+no-breaker 4:down 46.5 local:fallback 1.158
+no-breaker 4:down 48.0 local:fallback 1.239
+no-breaker 4:down 49.515 local:fallback 6.711
+no-breaker 4:down 56.5 local:fallback 1.16
+no-breaker 4:down 58.0 local:fallback 1.212
+no-breaker 4:down 59.5 local:fallback 4.406
+no-breaker 5:up 64.0 cloud 0.173
+no-breaker 5:up 64.5 cloud 0.216
+no-breaker 5:up 65.0 cloud 4.346
+no-breaker 5:up 69.5 cloud 0.175
+no-breaker 5:up 70.0 cloud 0.231
+no-breaker 5:up 70.5 cloud 1.423
+no-breaker 5:up 72.0 cloud 0.181
+no-breaker 5:up 72.5 cloud 0.222
+no-breaker 5:up 73.0 cloud 1.804
+breaker-nonstream-3s 1:up 0.0 cloud 0.169
+breaker-nonstream-3s 1:up 0.515 cloud 0.546
+breaker-nonstream-3s 1:up 1.515 cloud 2.458
+breaker-nonstream-3s 1:up 4.0 cloud 0.17
+breaker-nonstream-3s 1:up 4.5 cloud 0.222
+breaker-nonstream-3s 1:up 5.0 local:fallback 7.224
+breaker-nonstream-3s 2:hang 12.5 local:fallback 3.167
+breaker-nonstream-3s 2:hang 16.0 local:breaker-open 0.348
+breaker-nonstream-3s 2:hang 16.5 local:breaker-open 3.855
+breaker-nonstream-3s 2:hang 20.5 local:fallback 3.164
+breaker-nonstream-3s 2:hang 24.0 local:breaker-open 0.255
+breaker-nonstream-3s 2:hang 24.5 local:breaker-open 1.552
+breaker-nonstream-3s 2:hang 26.5 local:breaker-open 0.156
+breaker-nonstream-3s 2:hang 27.0 local:breaker-open 0.23
+breaker-nonstream-3s 2:hang 27.5 local:breaker-open 1.785
+breaker-nonstream-3s 2:hang 29.5 local:fallback 0.928
+breaker-nonstream-3s 3:up 30.5 local:breaker-open 0.252
+breaker-nonstream-3s 3:up 31.0 local:breaker-open 1.764
+breaker-nonstream-3s 3:up 33.0 local:breaker-open 0.155
+breaker-nonstream-3s 3:up 33.5 local:breaker-open 0.211
+breaker-nonstream-3s 3:up 34.0 local:breaker-open 1.171
+breaker-nonstream-3s 3:up 35.5 cloud 0.179
+breaker-nonstream-3s 3:up 36.0 cloud 0.234
+breaker-nonstream-3s 3:up 36.5 cloud 1.266
+breaker-nonstream-3s 3:up 38.0 cloud 0.183
+breaker-nonstream-3s 3:up 38.5 cloud 0.256
+breaker-nonstream-3s 3:up 39.0 local:fallback 10.46
+breaker-nonstream-3s 4:down 49.5 local:fallback 2.2
+breaker-nonstream-3s 4:down 52.0 local:breaker-open 0.211
+breaker-nonstream-3s 4:down 52.5 local:breaker-open 3.357
+breaker-nonstream-3s 4:down 56.015 local:breaker-open 0.155
+breaker-nonstream-3s 4:down 56.515 local:breaker-open 0.2
+breaker-nonstream-3s 4:down 57.0 local:fallback 6.367
+breaker-nonstream-3s 5:up 63.5 local:breaker-open 0.157
+breaker-nonstream-3s 5:up 64.0 local:breaker-open 0.212
+breaker-nonstream-3s 5:up 64.5 cloud 1.404
+breaker-nonstream-3s 5:up 66.0 cloud 0.157
+breaker-nonstream-3s 5:up 66.5 cloud 0.247
+breaker-nonstream-3s 5:up 67.015 cloud 1.772
+breaker-nonstream-3s 5:up 69.0 cloud 0.19
+breaker-nonstream-3s 5:up 69.5 cloud 0.252
+breaker-nonstream-3s 5:up 70.0 cloud 2.394
+breaker-nonstream-3s 5:up 72.5 cloud 0.172
+breaker-nonstream-3s 5:up 73.0 cloud 0.226
+breaker-nonstream-3s 5:up 73.5 cloud 1.771
+connect 1.0s, silence 3.0s, first token 10.0s, total 60.0s; breaker opens after 2 consecutive failures for 5.0s; one request every 0.5s; phases [('up', 10), ('hang', 20), ('up', 15), ('down', 15), ('up', 15)], switched at [0.0, 10.25, 30.25, 45.25, 60.25]
+
+- breaker, phase 1 (cloud healthy): 0 false alarms
+- breaker, outage 2 (hang, 20.0 s): 9 requests sent, 3 waited for the cloud (total 9.0 s, each [3.011, 3.024, 3.01]); first request served locally without waiting sent at +10.75 s
+- breaker, phase 3 (cloud healthy): 0 false alarms
+- breaker, cloud back at 30.25 s: first cloud answer sent at +2.75 s, finished at +2.92 s (relative to the cloud coming back)
+- breaker, outage 4 (down, 15.0 s): 9 requests sent, 3 waited for the cloud (total 3.0 s, each [1.014, 1.009, 1.012]); first request served locally without waiting sent at +4.27 s
+- breaker, phase 5 (cloud healthy): 0 false alarms
+- breaker, cloud back at 60.25 s: first cloud answer sent at +0.27 s, finished at +0.41 s (relative to the cloud coming back)
+- no-breaker, phase 1 (cloud healthy): 0 false alarms
+- no-breaker, outage 2 (hang, 20.0 s): 5 requests sent, 5 waited for the cloud (total 12.8 s, each [3.004, 3.008, 3.017, 3.008, 0.758]); first request served locally without waiting sent at never
+- no-breaker, phase 3 (cloud healthy): 0 false alarms
+- no-breaker, cloud back at 30.25 s: first cloud answer sent at +0.25 s, finished at +0.53 s (relative to the cloud coming back)
+- no-breaker, outage 4 (down, 15.0 s): 6 requests sent, 6 waited for the cloud (total 6.0 s, each [1.001, 1.007, 1.013, 1.004, 1.002, 1.001]); first request served locally without waiting sent at never
+- no-breaker, phase 5 (cloud healthy): 0 false alarms
+- no-breaker, cloud back at 60.25 s: first cloud answer sent at +3.75 s, finished at +3.92 s (relative to the cloud coming back)
+- breaker-nonstream-3s, phase 1 (cloud healthy): 1 false alarms ([('mgsm', 'APITimeoutError', 333)])
+- breaker-nonstream-3s, outage 2 (hang, 20.0 s): 10 requests sent, 3 waited for the cloud (total 6.8 s, each [3.009, 3.005, 0.769]); first request served locally without waiting sent at +5.75 s
+- breaker-nonstream-3s, phase 3 (cloud healthy): 1 false alarms ([('mgsm', 'APITimeoutError', 512)])
+- breaker-nonstream-3s, cloud back at 30.25 s: first cloud answer sent at +5.25 s, finished at +5.42 s (relative to the cloud coming back)
+- breaker-nonstream-3s, outage 4 (down, 15.0 s): 6 requests sent, 2 waited for the cloud (total 4.1 s, each [2.043, 2.074]); first request served locally without waiting sent at +6.75 s
+- breaker-nonstream-3s, phase 5 (cloud healthy): 0 false alarms
+- breaker-nonstream-3s, cloud back at 60.25 s: first cloud answer sent at +4.25 s, finished at +5.66 s (relative to the cloud coming back)
+
+| config | phase | requests | waited for cloud | total wait s | max wait s | where |
+|---|---|---|---|---|---|---|
+| breaker | 1:up | 7 | 0 | 0 |  | {"cloud": 7} |
+| breaker | 2:hang | 9 | 3 | 9.04 | 3.024 | {"local:fallback": 3, "local:breaker-open": 6} |
+| breaker | 3:up | 14 | 0 | 0 |  | {"local:breaker-open": 2, "cloud": 12} |
+| breaker | 4:down | 9 | 3 | 3.04 | 1.014 | {"local:fallback": 3, "local:breaker-open": 6} |
+| breaker | 5:up | 12 | 0 | 0 |  | {"cloud": 12} |
+| no-breaker | 1:up | 8 | 0 | 0 |  | {"cloud": 8} |
+| no-breaker | 2:hang | 5 | 5 | 12.79 | 3.017 | {"local:fallback": 5} |
+| no-breaker | 3:up | 11 | 0 | 0 |  | {"cloud": 11} |
+| no-breaker | 4:down | 6 | 6 | 6.03 | 1.013 | {"local:fallback": 6} |
+| no-breaker | 5:up | 9 | 0 | 0 |  | {"cloud": 9} |
+| breaker-nonstream-3s | 1:up | 6 | 1 | 3.01 | 3.008 | {"cloud": 5, "local:fallback": 1} |
+| breaker-nonstream-3s | 2:hang | 10 | 3 | 6.78 | 3.009 | {"local:fallback": 3, "local:breaker-open": 7} |
+| breaker-nonstream-3s | 3:up | 11 | 1 | 3.0 | 3.004 | {"local:breaker-open": 5, "cloud": 5, "local:fallback": 1} |
+| breaker-nonstream-3s | 4:down | 6 | 2 | 4.12 | 2.074 | {"local:fallback": 2, "local:breaker-open": 4} |
+| breaker-nonstream-3s | 5:up | 12 | 0 | 0 |  | {"local:breaker-open": 2, "cloud": 10} |
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-8b-cuda-gpu-2\\v2']

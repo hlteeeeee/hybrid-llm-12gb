@@ -1,0 +1,9 @@
+[warning] HTTP download failed for https://foundrypackages-ffhrdhbxb7gpdreh.b02.azurefd.net/cuda-ep-bins-win-x64-20261115-065910.zip: HTTP status 403
+[warning] CUDA EP: download failed for artifact 'cuda-ep'
+[warning] HTTP download failed for https://foundrypackages-ffhrdhbxb7gpdreh.b02.azurefd.net/webgpu_ep_0.2.1_win-x64.zip: HTTP status 403
+[warning] WebGPU EP: download failed for artifact 'webgpu-ep'
+[warning] Failed to download or register EP(s) [CUDAExecutionProvider, WebGpuExecutionProvider]; continuing with the remaining execution providers (CPU is always available). See earlier logs for the underlying cause.
+download_and_register_eps: success=False status='Some EPs failed' registered=[] failed=['CUDAExecutionProvider', 'WebGpuExecutionProvider'] (1s)
+eps now: [('CUDAExecutionProvider', False), ('WebGpuExecutionProvider', False)]
+fl-data size MB: 0
+== GPU variants

@@ -1,0 +1,28 @@
+== https://foundrypackages-ffhrdhbxb7gpdreh.b02.azurefd.net/cuda-ep-bins-win-x64-20261115-065910.zip
+HTTP/1.1 403 This request is not authorized to perform this operation.
+Date: Wed, 25 Nov 2026 19:08:22 GMT
+Connection: keep-alive
+x-ms-request-id: 88afb6d0-a01e-0032-4510-7dadec000000
+x-ms-error-code: AuthorizationFailure
+x-azure-ref: 20261125T190822Z-er18694df686jw9hhC1TYO8p6400000017hg000000001f6q
+x-fd-int-roxy-purgeid: 1
+X-Cache: TCP_MISS
+
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AuthorizationFailure</Code><Message>This request is not authorized to perform this operation.
+RequestId:3f046a48-501e-0019-4110-7d2d20000000
+Time:2026-11-25T19:08:23.0279531Z</Message></Error>
+== https://foundrypackages-ffhrdhbxb7gpdreh.b02.azurefd.net/webgpu_ep_0.2.1_win-x64.zip
+HTTP/1.1 403 This request is not authorized to perform this operation.
+Date: Wed, 25 Nov 2026 19:08:23 GMT
+Connection: keep-alive
+x-ms-request-id: 713eb19e-b01e-0073-7510-7df508000000
+x-ms-error-code: AuthorizationFailure
+x-azure-ref: 20261125T190823Z-er18694df689vzg9hC1TYO5ttc00000017wg000000000t2y
+x-fd-int-roxy-purgeid: 1
+X-Cache: TCP_MISS
+
+
+﻿<?xml version="1.0" encoding="utf-8"?><Error><Code>AuthorizationFailure</Code><Message>This request is not authorized to perform this operation.
+RequestId:2cb8efd5-001e-003b-5410-7de83f000000
+Time:2026-11-25T19:08:24.1126145Z</Message></Error>

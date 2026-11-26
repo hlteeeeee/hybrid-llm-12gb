@@ -1,0 +1,92 @@
+{
+  "runtime": "foundry-local-cuda",
+  "model": "qwen2.5-1.5b-instruct-cuda-gpu:4",
+  "base_url": "http://127.0.0.1:7507/v1",
+  "max_tokens": 256,
+  "runs": 3,
+  "vram_idle_mb": 2512,
+  "vram_after_load_mb": 4837,
+  "load_s": 1.4,
+  "ep_registration": "All EPs registered",
+  "model_file_size_mb": 1280,
+  "vram_peak_mb": 5547,
+  "summary_median": {
+    "short": {
+      "ttft_s": 0.0247,
+      "prompt_tokens_per_s_from_ttft": 1700.4,
+      "gen_tokens_per_s": 299.7
+    },
+    "long": {
+      "ttft_s": 0.0938,
+      "prompt_tokens_per_s_from_ttft": 14913.9,
+      "gen_tokens_per_s": 270.5
+    }
+  },
+  "runs_raw": {
+    "short": [
+      {
+        "ttft_s": 0.0284,
+        "total_s": 0.052,
+        "prompt_tokens": 42,
+        "completion_tokens": 8,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 1478.1,
+        "gen_tokens_per_s": 300.7,
+        "text_head": "日本の首都は東東京です。"
+      },
+      {
+        "ttft_s": 0.0247,
+        "total_s": 0.046,
+        "prompt_tokens": 42,
+        "completion_tokens": 7,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 1700.4,
+        "gen_tokens_per_s": 283.4,
+        "text_head": "日本の首都は東京です。"
+      },
+      {
+        "ttft_s": 0.0123,
+        "total_s": 0.032,
+        "prompt_tokens": 42,
+        "completion_tokens": 7,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 3403.5,
+        "gen_tokens_per_s": 299.7,
+        "text_head": "日本の首都は東京です。"
+      }
+    ],
+    "long": [
+      {
+        "ttft_s": 0.0938,
+        "total_s": 1.342,
+        "prompt_tokens": 1399,
+        "completion_tokens": 65,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 14913.9,
+        "gen_tokens_per_s": 51.3,
+        "text_head": "ハイブリッドLLMは、機密データや軽いタスクをローカルGPUで処理し、難しい推論をクラウドに送ることで、API費用と遅延を抑えつつ、品質が必要な場面で大型モデルを使用する方法です。"
+      },
+      {
+        "ttft_s": 0.1056,
+        "total_s": 0.34,
+        "prompt_tokens": 1399,
+        "completion_tokens": 65,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 13243.5,
+        "gen_tokens_per_s": 273.2,
+        "text_head": "ハイブリッドLLMは、機密データや軽いタスクをローカルGPUで処理し、難しい推論をクラウドに送ることで、API費用と遅延を抑えつつ、品質が必要な場面で大型モデルを使用する方法です。"
+      },
+      {
+        "ttft_s": 0.0868,
+        "total_s": 0.323,
+        "prompt_tokens": 1399,
+        "completion_tokens": 65,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 16109.4,
+        "gen_tokens_per_s": 270.5,
+        "text_head": "ハイブリッドLLMは、機密データや軽いタスクをローカルGPUで処理し、難しい推論をクラウドに送ることで、API費用と遅延を抑えつつ、品質が必要な場面で大型モデルを使用する方法です。"
+      }
+    ]
+  },
+  "model_vram_mb": 3035
+}

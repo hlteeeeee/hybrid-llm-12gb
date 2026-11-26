@@ -1,0 +1,26 @@
+1/280
+21/280
+41/280
+61/280
+81/280
+101/280
+121/280
+141/280
+161/280
+181/280
+201/280
+221/280
+241/280
+261/280
+{
+ "jcqa/dev": "24/40",
+ "jcqa/test": "21/40",
+ "jsquad/dev": "22/40",
+ "jsquad/test": "29/40",
+ "mgsm/dev": "10/40",
+ "mgsm/test": "11/40",
+ "pii/dev": "14/20",
+ "pii/test": "13/20"
+}
+wrote <project>\out\e2_local_qwen2.5-1.5b-instruct-cuda-gpu_4.jsonl
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\qwen2.5-1.5b-instruct-cuda-gpu-4\\v4']

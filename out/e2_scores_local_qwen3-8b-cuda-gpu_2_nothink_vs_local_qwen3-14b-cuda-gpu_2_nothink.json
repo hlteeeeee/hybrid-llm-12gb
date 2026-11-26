@@ -1,0 +1,144 @@
+{
+  "prices_usd_per_mtok": {
+    "input": 0.0,
+    "output": 0.0
+  },
+  "rule_local_kinds": [
+    "jcqa",
+    "jsquad",
+    "mgsm",
+    "pii"
+  ],
+  "classifier_threshold": null,
+  "dev": {
+    "all-local": {
+      "accuracy": 0.8,
+      "cloud_share": 0.0,
+      "cost_usd": 0,
+      "latency_p50_s": 0.241,
+      "latency_p95_s": 4.144,
+      "n": 140
+    },
+    "all-cloud": {
+      "accuracy": 0.7786,
+      "cloud_share": 0.8571,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.324,
+      "latency_p95_s": 3.795,
+      "n": 140
+    },
+    "rule": {
+      "accuracy": 0.8,
+      "cloud_share": 0.0,
+      "cost_usd": 0,
+      "latency_p50_s": 0.241,
+      "latency_p95_s": 4.144,
+      "n": 140
+    },
+    "second-only": {
+      "accuracy": 0.7643,
+      "cloud_share": 1.0,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.375,
+      "latency_p95_s": 3.795,
+      "n": 140
+    }
+  },
+  "test": {
+    "all-local": {
+      "accuracy": 0.75,
+      "cloud_share": 0.0,
+      "cost_usd": 0,
+      "latency_p50_s": 0.238,
+      "latency_p95_s": 5.497,
+      "n": 140
+    },
+    "all-cloud": {
+      "accuracy": 0.8357,
+      "cloud_share": 0.8571,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.331,
+      "latency_p95_s": 4.096,
+      "n": 140
+    },
+    "rule": {
+      "accuracy": 0.75,
+      "cloud_share": 0.0,
+      "cost_usd": 0,
+      "latency_p50_s": 0.238,
+      "latency_p95_s": 5.497,
+      "n": 140
+    },
+    "second-only": {
+      "accuracy": 0.8286,
+      "cloud_share": 1.0,
+      "cost_usd": 0.0,
+      "latency_p50_s": 0.356,
+      "latency_p95_s": 4.096,
+      "n": 140
+    }
+  },
+  "test_by_kind": {
+    "all-local": {
+      "jcqa": 0.775,
+      "jsquad": 0.7,
+      "mgsm": 0.65,
+      "pii": 1.0
+    },
+    "all-cloud": {
+      "jcqa": 0.9,
+      "jsquad": 0.725,
+      "mgsm": 0.8,
+      "pii": 1.0
+    },
+    "rule": {
+      "jcqa": 0.775,
+      "jsquad": 0.7,
+      "mgsm": 0.65,
+      "pii": 1.0
+    },
+    "second-only": {
+      "jcqa": 0.9,
+      "jsquad": 0.725,
+      "mgsm": 0.8,
+      "pii": 0.95
+    }
+  },
+  "test_diff_ci95": {
+    "all-cloud - all-local": {
+      "diff": 0.0857,
+      "lo": 0.0214,
+      "hi": 0.1571
+    },
+    "rule - all-local": {
+      "diff": 0.0,
+      "lo": 0.0,
+      "hi": 0.0
+    },
+    "second-only - all-local": {
+      "diff": 0.0786,
+      "lo": 0.0143,
+      "hi": 0.15
+    },
+    "rule - all-cloud": {
+      "diff": -0.0857,
+      "lo": -0.1571,
+      "hi": -0.0214
+    },
+    "second-only - all-cloud": {
+      "diff": -0.0071,
+      "lo": -0.0214,
+      "hi": 0.0
+    },
+    "second-only - rule": {
+      "diff": 0.0786,
+      "lo": 0.0143,
+      "hi": 0.15
+    }
+  },
+  "inputs": [
+    "out/e2_local_qwen3-8b-cuda-gpu_2_nothink.jsonl",
+    "out/e2_local_qwen3-14b-cuda-gpu_2_nothink.jsonl"
+  ],
+  "jsquad_scoring": "exact"
+}

@@ -1,0 +1,22 @@
+1/280
+21/280
+41/280
+61/280
+81/280
+101/280
+121/280
+141/280
+161/280
+181/280
+201/280
+221/280
+241/280
+261/280
+{
+ "jcqa/dev": "24/40",
+ "jsquad/dev": "22/40",
+ "mgsm/dev": "7/40",
+ "pii/dev": "20/20"
+}
+wrote <project>\out\e2_local_qwen2.5-1.5b-instruct-generic-cpu_4_run2.jsonl
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\qwen2.5-1.5b-instruct-generic-cpu-4\\v4']

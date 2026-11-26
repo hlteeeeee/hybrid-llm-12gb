@@ -1,0 +1,10 @@
+{"variant": "qwen3-14b-cuda-gpu:2", "catalog_mb": 9302, "f_free_mb_before": 11442, "wall_s": 137, "exit_code": 0, "load_s": 2.3, "vram_idle_mb": 865, "vram_after_load_mb": 11380, "vram_peak_mb": 11734, "model_vram_mb": 10869, "model_file_size_mb": 9302, "short": {"ttft_s": 0.1633, "prompt_tokens_per_s_from_ttft": 128.6, "gen_tokens_per_s": 57.5}, "long": {"ttft_s": 0.7718, "prompt_tokens_per_s_from_ttft": 1785.4, "gen_tokens_per_s": 54.3}, "status": "ok", "parked": ["<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-14b-cuda-gpu-2\\v2"]}
+| model | file MB | load s | VRAM rise MB | TTFT short s | gen tok/s short | TTFT long (~1.4k tok) s | gen tok/s long | status |
+|---|---|---|---|---|---|---|---|---|
+| qwen2.5-1.5b-instruct-cuda-gpu:4 | 1280 | 1.4 | 3035 | 0.0247 | 299.7 | 0.0938 | 270.5 | ok |
+| qwen3-4b-cuda-gpu:2 | 2692 | 1.8 | 5276 | 0.0627 | 142.3 | 0.2563 | 135.3 | ok |
+| Phi-4-mini-instruct-cuda-gpu:5 | 3686 | 2.4 | 6811 | 0.0739 | 81.9 | 0.2687 | 120.4 | ok |
+| qwen2.5-7b-instruct-cuda-gpu:4 | 4843 | 1.7 | 7195 | 0.0567 | 106.1 | 0.3903 | 100.4 | ok |
+| qwen3-8b-cuda-gpu:2 | 5674 | 1.9 | 8343 | 0.1179 | 91.8 | 0.4479 | 89.5 | ok |
+| Phi-4-cuda-gpu:2 | 8570 | 1.6 | 9201 | 0.145 | 59.9 | 1.196 | 61.3 | ok |
+| qwen3-14b-cuda-gpu:2 | 9302 | 2.3 | 10869 | 0.1633 | 57.5 | 0.7718 | 54.3 | ok |

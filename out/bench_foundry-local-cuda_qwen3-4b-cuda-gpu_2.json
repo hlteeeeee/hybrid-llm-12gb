@@ -1,0 +1,98 @@
+{
+  "runtime": "foundry-local-cuda",
+  "model": "qwen3-4b-cuda-gpu:2",
+  "base_url": "http://127.0.0.1:8005/v1",
+  "max_tokens": 256,
+  "runs": 3,
+  "vram_idle_mb": 864,
+  "vram_after_load_mb": 5238,
+  "load_s": 1.8,
+  "ep_registration": "All EPs registered",
+  "model_file_size_mb": 2692,
+  "vram_peak_mb": 6140,
+  "summary_median": {
+    "short": {
+      "ttft_s": 0.0627,
+      "prompt_tokens_per_s_from_ttft": 334.7,
+      "gen_tokens_per_s": 142.3
+    },
+    "long": {
+      "ttft_s": 0.2563,
+      "prompt_tokens_per_s_from_ttft": 5376.0,
+      "gen_tokens_per_s": 135.3
+    }
+  },
+  "runs_raw": {
+    "short": [
+      {
+        "ttft_s": 0.0627,
+        "total_s": 0.693,
+        "prompt_tokens": 21,
+        "completion_tokens": 91,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 334.7,
+        "gen_tokens_per_s": 142.7,
+        "reasoning_chunks": 81,
+        "text_head": "\n日本の首都は東京です。"
+      },
+      {
+        "ttft_s": 0.0611,
+        "total_s": 0.701,
+        "prompt_tokens": 21,
+        "completion_tokens": 91,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 343.7,
+        "gen_tokens_per_s": 140.7,
+        "reasoning_chunks": 81,
+        "text_head": "\n日本の首都は東京です。"
+      },
+      {
+        "ttft_s": 0.0844,
+        "total_s": 0.717,
+        "prompt_tokens": 21,
+        "completion_tokens": 91,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 248.9,
+        "gen_tokens_per_s": 142.3,
+        "reasoning_chunks": 81,
+        "text_head": "\n日本の首都は東京です。"
+      }
+    ],
+    "long": [
+      {
+        "ttft_s": 0.2563,
+        "total_s": 2.179,
+        "prompt_tokens": 1378,
+        "completion_tokens": 256,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 5376.0,
+        "gen_tokens_per_s": 132.6,
+        "reasoning_chunks": 255,
+        "text_head": ""
+      },
+      {
+        "ttft_s": 0.2494,
+        "total_s": 2.135,
+        "prompt_tokens": 1378,
+        "completion_tokens": 256,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 5526.0,
+        "gen_tokens_per_s": 135.3,
+        "reasoning_chunks": 255,
+        "text_head": ""
+      },
+      {
+        "ttft_s": 0.2665,
+        "total_s": 2.147,
+        "prompt_tokens": 1378,
+        "completion_tokens": 256,
+        "token_count_source": "usage",
+        "prompt_tokens_per_s_from_ttft": 5171.4,
+        "gen_tokens_per_s": 135.6,
+        "reasoning_chunks": 255,
+        "text_head": ""
+      }
+    ]
+  },
+  "model_vram_mb": 5276
+}

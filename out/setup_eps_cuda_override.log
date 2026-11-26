@@ -1,0 +1,58 @@
+  CUDAExecutionProvider: 90%
+  CUDAExecutionProvider: 100%
+download_and_register_eps: success=True status='All EPs registered' registered=['CUDAExecutionProvider'] failed=[] (0s)
+eps now: [('CUDAExecutionProvider', True), ('WebGpuExecutionProvider', False)]
+fl-data size MB: 544
+== GPU variants
+  clm-v0.1-8b                  clm-v0.1-8b-cuda-gpu:2                                  CUDAExecutionProvider          8544 MB  ctx=40960 tools=False
+  deepseek-r1-14b              deepseek-r1-distill-qwen-14b-cuda-gpu:4                 CUDAExecutionProvider         10065 MB  ctx=131072 tools=False
+  deepseek-r1-7b               deepseek-r1-distill-qwen-7b-cuda-gpu:4                  CUDAExecutionProvider          5406 MB  ctx=131072 tools=False
+  gemma-4-e2b-it               gemma-4-e2b-it-cuda-gpu:3                               CUDAExecutionProvider          5896 MB  ctx=131072 tools=True
+  gpt-oss-20b                  gpt-oss-20b-cuda-gpu:1                                  CUDAExecutionProvider         11331 MB  ctx=131072 tools=False
+  kev-0.8b                     kev-0.8b-cuda-gpu:2                                     CUDAExecutionProvider          1240 MB  ctx=262144 tools=False
+  kev-4b                       kev-4b-cuda-gpu:2                                       CUDAExecutionProvider          5674 MB  ctx=262144 tools=False
+  ling-3.0-tiny                ling-3.0-tiny-cuda-gpu:1                                CUDAExecutionProvider          4458 MB  ctx=131072 tools=True
+  ministral-3-3b-instruct-2512 ministral-3-3b-instruct-2512-cuda-gpu:2                 CUDAExecutionProvider          3679 MB  ctx=262144 tools=True
+  mistral-7b-v0.2              mistralai-Mistral-7B-Instruct-v0-2-cuda-gpu:2           CUDAExecutionProvider          4075 MB  ctx=32768 tools=None
+  mistral-nemo-12b-instruct    mistral-nemo-12b-instruct-cuda-gpu:1                    CUDAExecutionProvider          6766 MB  ctx=131072 tools=True
+  nemotron-3.5-asr-streaming-0.6b nemotron-3.5-asr-streaming-0.6b-cuda-gpu:3              CUDAExecutionProvider           756 MB  ctx=None tools=None
+  nemotron-speech-streaming-en-0.6b nemotron-speech-streaming-en-0.6b-cuda-gpu:2            CUDAExecutionProvider           696 MB  ctx=None tools=None
+  nemotron-speech-streaming-es-0.6b nemotron-speech-streaming-es-0.6b-ft-cuda-gpu:2         CUDAExecutionProvider           729 MB  ctx=None tools=None
+  olmo-3-7b-instruct           olmo-3-7b-instruct-cuda-gpu:1                           CUDAExecutionProvider          5193 MB  ctx=65536 tools=True
+  parakeet-tdt-0.6b-v2         parakeet-tdt-0.6b-v2-cuda-gpu:1                         CUDAExecutionProvider           692 MB  ctx=None tools=None
+  phi-3-mini-128k              Phi-3-mini-128k-instruct-cuda-gpu:2                     CUDAExecutionProvider          2181 MB  ctx=131072 tools=None
+  phi-3-mini-4k                Phi-3-mini-4k-instruct-cuda-gpu:2                       CUDAExecutionProvider          2181 MB  ctx=4096 tools=None
+  phi-3.5-mini                 Phi-3.5-mini-instruct-cuda-gpu:2                        CUDAExecutionProvider          2181 MB  ctx=131072 tools=None
+  phi-4                        Phi-4-cuda-gpu:2                                        CUDAExecutionProvider          8570 MB  ctx=16384 tools=None
+  phi-4-mini                   Phi-4-mini-instruct-cuda-gpu:5                          CUDAExecutionProvider          3686 MB  ctx=131072 tools=True
+  phi-4-mini-reasoning         Phi-4-mini-reasoning-cuda-gpu:3                         CUDAExecutionProvider          3225 MB  ctx=131072 tools=True
+  phi-4-reasoning              Phi-4-reasoning-cuda-gpu:1                              CUDAExecutionProvider          8581 MB  ctx=32768 tools=False
+  qwen2.5-0.5b                 qwen2.5-0.5b-instruct-cuda-gpu:4                        CUDAExecutionProvider           528 MB  ctx=32768 tools=True
+  qwen2.5-1.5b                 qwen2.5-1.5b-instruct-cuda-gpu:4                        CUDAExecutionProvider          1280 MB  ctx=32768 tools=True
+  qwen2.5-14b                  qwen2.5-14b-instruct-cuda-gpu:4                         CUDAExecutionProvider          9000 MB  ctx=32768 tools=True
+  qwen2.5-7b                   qwen2.5-7b-instruct-cuda-gpu:4                          CUDAExecutionProvider          4843 MB  ctx=32768 tools=True
+  qwen2.5-coder-0.5b           qwen2.5-coder-0.5b-instruct-cuda-gpu:4                  CUDAExecutionProvider           528 MB  ctx=32768 tools=True
+  qwen2.5-coder-1.5b           qwen2.5-coder-1.5b-instruct-cuda-gpu:4                  CUDAExecutionProvider          1280 MB  ctx=32768 tools=True
+  qwen2.5-coder-14b            qwen2.5-coder-14b-instruct-cuda-gpu:4                   CUDAExecutionProvider          9000 MB  ctx=32768 tools=True
+  qwen2.5-coder-7b             qwen2.5-coder-7b-instruct-cuda-gpu:4                    CUDAExecutionProvider          4843 MB  ctx=32768 tools=True
+  qwen3-0.6b                   qwen3-0.6b-cuda-gpu:2                                   CUDAExecutionProvider           492 MB  ctx=40960 tools=True
+  qwen3-1.7b                   qwen3-1.7b-cuda-gpu:2                                   CUDAExecutionProvider          1318 MB  ctx=40960 tools=True
+  qwen3-14b                    qwen3-14b-cuda-gpu:2                                    CUDAExecutionProvider          9302 MB  ctx=40960 tools=True
+  qwen3-4b                     qwen3-4b-cuda-gpu:2                                     CUDAExecutionProvider          2692 MB  ctx=40960 tools=True
+  qwen3-8b                     qwen3-8b-cuda-gpu:2                                     CUDAExecutionProvider          5674 MB  ctx=40960 tools=True
+  qwen3-embedding-0.6b         qwen3-embedding-0.6b-cuda-gpu:1                         CUDAExecutionProvider           478 MB  ctx=32768 tools=False
+  qwen3-embedding-8b           qwen3-embedding-8b-cuda-gpu:1                           CUDAExecutionProvider          5640 MB  ctx=32768 tools=False
+  qwen3-vl-2b-instruct         qwen3-vl-2b-instruct-cuda-gpu:2                         CUDAExecutionProvider          2161 MB  ctx=262144 tools=True
+  qwen3-vl-4b-instruct         qwen3-vl-4b-instruct-cuda-gpu:2                         CUDAExecutionProvider          3561 MB  ctx=262144 tools=True
+  qwen3-vl-8b-instruct         qwen3-vl-8b-instruct-cuda-gpu:2                         CUDAExecutionProvider          6130 MB  ctx=262144 tools=True
+  qwen3.5-0.8b                 qwen3.5-0.8b-cuda-gpu:4                                 CUDAExecutionProvider          1483 MB  ctx=262144 tools=True
+  qwen3.5-2b                   qwen3.5-2b-cuda-gpu:4                                   CUDAExecutionProvider          2928 MB  ctx=262144 tools=True
+  qwen3.5-2b-text              qwen3.5-2b-text-cuda-gpu:1                              CUDAExecutionProvider          1351 MB  ctx=262144 tools=True
+  qwen3.5-4b                   qwen3.5-4b-cuda-gpu:4                                   CUDAExecutionProvider          4181 MB  ctx=262144 tools=True
+  qwen3.5-9b                   qwen3.5-9b-cuda-gpu:4                                   CUDAExecutionProvider          7144 MB  ctx=262144 tools=True
+  smollm3-3b                   smollm3-3b-cuda-gpu:1                                   CUDAExecutionProvider          2069 MB  ctx=65536 tools=True
+  whisper-base                 openai-whisper-base-cuda-gpu:3                          CUDAExecutionProvider           123 MB  ctx=448 tools=None
+  whisper-large-v3-turbo       openai-whisper-large-v3-turbo-cuda-gpu:3                CUDAExecutionProvider           803 MB  ctx=448 tools=None
+  whisper-medium               openai-whisper-medium-cuda-gpu:3                        CUDAExecutionProvider           639 MB  ctx=448 tools=None
+  whisper-small                openai-whisper-small-cuda-gpu:3                         CUDAExecutionProvider           301 MB  ctx=448 tools=None
+  whisper-tiny                 openai-whisper-tiny-cuda-gpu:3                          CUDAExecutionProvider            85 MB  ctx=448 tools=None

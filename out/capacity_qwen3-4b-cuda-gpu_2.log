@@ -1,0 +1,28 @@
+EP registration: All EPs registered ['CUDAExecutionProvider'] []
+{
+  "runtime": "foundry-local-cuda",
+  "model": "qwen3-4b-cuda-gpu:2",
+  "base_url": "http://127.0.0.1:8005/v1",
+  "max_tokens": 256,
+  "runs": 3,
+  "vram_idle_mb": 864,
+  "vram_after_load_mb": 5238,
+  "load_s": 1.8,
+  "ep_registration": "All EPs registered",
+  "model_file_size_mb": 2692,
+  "vram_peak_mb": 6140,
+  "summary_median": {
+    "short": {
+      "ttft_s": 0.0627,
+      "prompt_tokens_per_s_from_ttft": 334.7,
+      "gen_tokens_per_s": 142.3
+    },
+    "long": {
+      "ttft_s": 0.2563,
+      "prompt_tokens_per_s_from_ttft": 5376.0,
+      "gen_tokens_per_s": 135.3
+    }
+  },
+  "model_vram_mb": 5276
+}
+wrote <project>\out\bench_foundry-local-cuda_qwen3-4b-cuda-gpu_2.json

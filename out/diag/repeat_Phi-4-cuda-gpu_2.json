@@ -1,0 +1,233 @@
+{
+ "model": "Phi-4-cuda-gpu:2",
+ "repeat": 5,
+ "ids": {
+  "jsquad-a4596p36q2": {
+   "same prompt again": {
+    "distinct_texts": 1,
+    "correct": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "completion_tokens": [
+     10,
+     10,
+     10,
+     10,
+     10
+    ],
+    "texts": [
+     "輸出255億ドル",
+     "輸出255億ドル",
+     "輸出255億ドル",
+     "輸出255億ドル",
+     "輸出255億ドル"
+    ]
+   },
+   "after another prompt": {
+    "distinct_texts": 1,
+    "correct": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "completion_tokens": [
+     10,
+     10,
+     10,
+     10,
+     10
+    ],
+    "texts": [
+     "輸出255億ドル",
+     "輸出255億ドル",
+     "輸出255億ドル",
+     "輸出255億ドル",
+     "輸出255億ドル"
+    ]
+   }
+  },
+  "jsquad-a2164640p16q3": {
+   "same prompt again": {
+    "distinct_texts": 1,
+    "correct": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "completion_tokens": [
+     11,
+     11,
+     11,
+     11,
+     11
+    ],
+    "texts": [
+     "「codice_6」に統合され",
+     "「codice_6」に統合され",
+     "「codice_6」に統合され",
+     "「codice_6」に統合され",
+     "「codice_6」に統合され"
+    ]
+   },
+   "after another prompt": {
+    "distinct_texts": 1,
+    "correct": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "completion_tokens": [
+     11,
+     11,
+     11,
+     11,
+     11
+    ],
+    "texts": [
+     "「codice_6」に統合され",
+     "「codice_6」に統合され",
+     "「codice_6」に統合され",
+     "「codice_6」に統合され",
+     "「codice_6」に統合され"
+    ]
+   }
+  },
+  "jsquad-a1540503p42q1": {
+   "same prompt again": {
+    "distinct_texts": 1,
+    "correct": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "completion_tokens": [
+     24,
+     24,
+     24,
+     24,
+     24
+    ],
+    "texts": [
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが"
+    ]
+   },
+   "after another prompt": {
+    "distinct_texts": 1,
+    "correct": [
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "completion_tokens": [
+     24,
+     24,
+     24,
+     24,
+     24
+    ],
+    "texts": [
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが",
+     "あと数百年分は埋蔵されているとも言われるが"
+    ]
+   }
+  },
+  "pii-10": {
+   "same prompt again": {
+    "distinct_texts": 1,
+    "correct": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "completion_tokens": [
+     10,
+     10,
+     10,
+     10,
+     10
+    ],
+    "texts": [
+     "渡辺 蓮 様",
+     "渡辺 蓮 様",
+     "渡辺 蓮 様",
+     "渡辺 蓮 様",
+     "渡辺 蓮 様"
+    ]
+   },
+   "after another prompt": {
+    "distinct_texts": 1,
+    "correct": [
+     true,
+     true,
+     true,
+     true,
+     true
+    ],
+    "completion_tokens": [
+     10,
+     10,
+     10,
+     10,
+     10
+    ],
+    "texts": [
+     "渡辺 蓮 様",
+     "渡辺 蓮 様",
+     "渡辺 蓮 様",
+     "渡辺 蓮 様",
+     "渡辺 蓮 様"
+    ]
+   }
+  }
+ },
+ "pairs": {
+  "pii-9->pii-10": {
+   "answers": [
+    "渡辺 蓮 様",
+    "渡辺 蓮 様",
+    "渡辺 蓮 様",
+    "渡辺 蓮 様",
+    "渡辺 蓮 様"
+   ],
+   "gold": [
+    "渡辺 蓮",
+    "渡辺蓮"
+   ],
+   "correct": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "foreign_values_checked": [
+    "090-0000-8996",
+    "user141@example.jp"
+   ],
+   "answers_containing_previous_prompt_values": []
+  }
+ }
+}

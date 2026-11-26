@@ -1,0 +1,12 @@
+[2026-11-26 04:17:20.863] [warning] Failed to download or register EP(s) [CUDAExecutionProvider]; continuing with the remaining execution providers (CPU is always available). See earlier logs for the underlying cause.
+[2026-11-26 04:20:45.345] [info] WinML EP catalog: discovered 0 trusted provider(s)
+[2026-11-26 04:20:45.355] [info] Downloading and registering EP: CUDAExecutionProvider
+[2026-11-26 04:20:45.356] [info] EP registration: 'CUDAExecutionProvider' registered successfully (library=<project>\tools\cuda-ep\onnxruntime\capi\onnxruntime_providers_cuda.dll, version=1.32.0)
+[2026-11-26 04:20:45.356] [info] CUDA EP: ready (override_env=FOUNDRY_LOCAL_CUDA_EP_LIBRARY install_path=<project>\tools\cuda-ep\onnxruntime\capi\onnxruntime_providers_cuda.dll)
+[2026-11-26 04:20:45.819] [info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': skipping variant 'mai-code-1.1-flash-cuda-gpu:2' for default selection because execution provider 'CUDAExecutionProvider' is unavailable or device capacity is incompatible.
+[2026-11-26 04:20:45.819] [info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': no variant for alias 'mai-code-1.1-flash' has an available execution provider; variants remain visible for inspection and explicit selection.
+[2026-11-26 04:20:45.819] [info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': skipping variant 'nemotron-3.5-bolt-74b-a9b-cuda-gpu:1' for default selection because execution provider 'CUDAExecutionProvider' is unavailable or device capacity is incompatible.
+[2026-11-26 04:20:45.819] [info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': no variant for alias 'nemotron-3.5-bolt-74b-a9b' has an available execution provider; variants remain visible for inspection and explicit selection.
+[2026-11-26 04:20:45.822] [info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': skipping variant 'qwen3.8-27b-cuda-gpu:1' for default selection because execution provider 'CUDAExecutionProvider' is unavailable or device capacity is incompatible.
+[2026-11-26 04:20:45.822] [info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': no variant for alias 'qwen3.8-27b' has an available execution provider; variants remain visible for inspection and explicit selection.
+[2026-11-26 04:20:45.823] [info] model qwen2.5-0.5b-instruct-cuda-gpu:4 using main decoder provider options from genai_config.json (provider=cuda)

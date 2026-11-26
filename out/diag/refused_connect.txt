@@ -1,0 +1,8 @@
+Windows  python 3.12.12  openai 3.59.0  2026-11-26 05:47:07 +0900
+socket.create_connection 127.0.0.1: median 2.042 s (ConnectionRefusedError)
+socket.create_connection localhost: median 4.096 s (ConnectionRefusedError)
+openai, max_retries=0: median 2.042 s (APIConnectionError)
+openai, default retries: median 7.407 s (APIConnectionError)
+openai, max_retries=0, connect timeout 1 s: median 1.013 s (APITimeoutError)
+silent server, openai timeout 0.5 s, max_retries=0: median 0.516 s (APITimeoutError)
+silent server, openai timeout 0.5 s, default retries: median 2.914 s (APITimeoutError)

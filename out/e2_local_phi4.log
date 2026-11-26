@@ -1,0 +1,26 @@
+1/280
+21/280
+41/280
+61/280
+81/280
+101/280
+121/280
+141/280
+161/280
+181/280
+201/280
+221/280
+241/280
+261/280
+{
+ "jcqa/dev": "38/40",
+ "jcqa/test": "37/40",
+ "jsquad/dev": "18/40",
+ "jsquad/test": "18/40",
+ "mgsm/dev": "34/40",
+ "mgsm/test": "31/40",
+ "pii/dev": "6/20",
+ "pii/test": "5/20"
+}
+wrote <project>\out\e2_local_Phi-4-cuda-gpu_2.jsonl
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\Phi-4-cuda-gpu-2\\v2']

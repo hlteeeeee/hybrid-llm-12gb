@@ -1,0 +1,123 @@
+breaker up cloud 1.083
+breaker up cloud 0.237
+breaker up cloud 0.354
+breaker up cloud 0.276
+breaker up cloud 0.272
+breaker up cloud 0.252
+breaker up cloud 0.227
+breaker up cloud 0.24
+breaker up cloud 0.257
+breaker up cloud 0.239
+breaker hang local:fallback 3.237
+breaker hang local:fallback 3.223
+breaker hang local:breaker-open 0.202
+breaker hang local:breaker-open 0.236
+breaker hang local:breaker-open 0.208
+breaker hang local:breaker-open 0.185
+breaker hang local:breaker-open 0.293
+breaker hang local:breaker-open 0.164
+breaker hang local:breaker-open 0.213
+breaker hang local:breaker-open 0.246
+breaker hang local:breaker-open 0.231
+breaker hang local:breaker-open 0.202
+breaker hang local:breaker-open 0.188
+breaker hang local:breaker-open 0.197
+breaker hang local:breaker-open 0.187
+breaker hang local:breaker-open 0.194
+breaker hang local:breaker-open 0.161
+breaker hang local:breaker-open 0.231
+breaker hang local:breaker-open 0.162
+breaker hang local:breaker-open 0.186
+breaker down local:breaker-open 0.175
+breaker down local:breaker-open 0.198
+breaker down local:breaker-open 0.224
+breaker down local:breaker-open 0.196
+breaker down local:breaker-open 0.18
+breaker down local:breaker-open 0.225
+breaker down local:breaker-open 0.187
+breaker down local:breaker-open 0.197
+breaker down local:breaker-open 0.473
+breaker down local:breaker-open 0.199
+breaker up local:breaker-open 0.151
+breaker up local:breaker-open 0.15
+breaker up local:breaker-open 0.152
+breaker up local:breaker-open 0.15
+breaker up local:breaker-open 0.124
+breaker up local:breaker-open 0.13
+breaker up local:breaker-open 0.153
+breaker up local:breaker-open 0.152
+breaker up local:breaker-open 0.153
+breaker up local:breaker-open 0.123
+breaker up local:breaker-open 0.152
+breaker up local:breaker-open 0.149
+breaker up local:breaker-open 0.122
+breaker up local:breaker-open 0.122
+breaker up local:breaker-open 0.15
+no-breaker up cloud 0.539
+no-breaker up cloud 0.243
+no-breaker up cloud 0.382
+no-breaker up cloud 0.283
+no-breaker up cloud 0.244
+no-breaker up cloud 0.251
+no-breaker up cloud 0.241
+no-breaker up cloud 0.242
+no-breaker up cloud 0.26
+no-breaker up cloud 0.232
+no-breaker hang local:fallback 3.226
+no-breaker hang local:fallback 3.231
+no-breaker hang local:fallback 3.223
+no-breaker hang local:fallback 3.267
+no-breaker hang local:fallback 3.221
+no-breaker hang local:fallback 3.257
+no-breaker hang local:fallback 3.315
+no-breaker hang local:fallback 3.197
+no-breaker hang local:fallback 3.218
+no-breaker hang local:fallback 3.26
+no-breaker hang local:fallback 3.237
+no-breaker hang local:fallback 3.236
+no-breaker hang local:fallback 3.201
+no-breaker hang local:fallback 3.209
+no-breaker hang local:fallback 3.197
+no-breaker hang local:fallback 3.207
+no-breaker hang local:fallback 3.176
+no-breaker hang local:fallback 3.271
+no-breaker hang local:fallback 3.18
+no-breaker hang local:fallback 3.215
+no-breaker down local:fallback 2.224
+no-breaker down local:fallback 2.262
+no-breaker down local:fallback 2.284
+no-breaker down local:fallback 2.251
+no-breaker down local:fallback 2.227
+no-breaker down local:fallback 2.276
+no-breaker down local:fallback 2.241
+no-breaker down local:fallback 2.232
+no-breaker down local:fallback 2.513
+no-breaker down local:fallback 2.248
+no-breaker up cloud 0.18
+no-breaker up cloud 0.184
+no-breaker up cloud 0.187
+no-breaker up cloud 0.19
+no-breaker up cloud 0.187
+no-breaker up cloud 0.186
+no-breaker up cloud 0.155
+no-breaker up cloud 0.189
+no-breaker up cloud 0.186
+no-breaker up cloud 0.193
+no-breaker up cloud 0.183
+no-breaker up cloud 0.172
+no-breaker up cloud 0.172
+no-breaker up cloud 0.17
+no-breaker up cloud 0.171
+parked ['<park>/zenn-hybrid-llm-models\\Microsoft\\qwen3-8b-cuda-gpu-2\\v2']
+timeout 3.0s, breaker opens after 2 consecutive failures for 10.0s
+
+| config | phase | n | answered | correct | p50 s | p95 s | max s | waited for cloud | where |
+|---|---|---|---|---|---|---|---|---|---|
+| breaker | 1:up | 10 | 10 | 7 | 0.255 | 1.083 | 1.083 | 0 | {"cloud": 10} |
+| breaker | 2:hang | 20 | 20 | 16 | 0.202 | 3.223 | 3.237 | 2 | {"local:fallback": 2, "local:breaker-open": 18} |
+| breaker | 3:down | 10 | 10 | 6 | 0.198 | 0.473 | 0.473 | 0 | {"local:breaker-open": 10} |
+| breaker | 4:up | 15 | 15 | 11 | 0.15 | 0.153 | 0.153 | 0 | {"local:breaker-open": 15} |
+| no-breaker | 1:up | 10 | 10 | 7 | 0.247 | 0.539 | 0.539 | 0 | {"cloud": 10} |
+| no-breaker | 2:hang | 20 | 20 | 16 | 3.222 | 3.271 | 3.315 | 20 | {"local:fallback": 20} |
+| no-breaker | 3:down | 10 | 10 | 6 | 2.25 | 2.513 | 2.513 | 10 | {"local:fallback": 10} |
+| no-breaker | 4:up | 15 | 15 | 11 | 0.184 | 0.19 | 0.193 | 0 | {"cloud": 15} |

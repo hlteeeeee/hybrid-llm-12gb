@@ -1,0 +1,79 @@
+[info] Runtime versions: onnxruntime=1.32.0, onnxruntime-genai=0.20.0
+[info] WinML EP catalog: discovered 0 trusted provider(s)
+[info] [Telemetry] Disabled via ORT_DISABLE_TELEMETRY; non-essential 1DS upload disabled (ProcessInfo still uploads)
+[info] [Telemetry] 1DS initialized; AppName=hybrid-llm-bench AppVersion=3.12.12 Version=2.5.0 Os=Windows Arch=amd64
+[info] Created AzureModelCatalog. Cache directory: <project>\fl-data\models
+[info] Manager initialized successfully.
+[info] Downloading and registering EP: CUDAExecutionProvider
+[info] EP registration: 'CUDAExecutionProvider' registered successfully (library=<project>\tools\cuda-ep\onnxruntime\capi\onnxruntime_providers_cuda.dll, version=1.32.0)
+[info] CUDA EP: ready (override_env=FOUNDRY_LOCAL_CUDA_EP_LIBRARY install_path=<project>\tools\cuda-ep\onnxruntime\capi\onnxruntime_providers_cuda.dll)
+[info] Getting catalog metadata and locally cached models.
+[info] Found 1 locally cached models.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'clm-v0.1-8b-cuda-gpu:2' for alias 'clm-v0.1-8b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'deepseek-r1-distill-qwen-14b-cuda-gpu:4' for alias 'deepseek-r1-14b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'deepseek-r1-distill-qwen-7b-cuda-gpu:4' for alias 'deepseek-r1-7b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'gemma-4-e2b-it-cuda-gpu:3' for alias 'gemma-4-e2b-it'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'gpt-oss-20b-cuda-gpu:1' for alias 'gpt-oss-20b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'kev-0.8b-cuda-gpu:2' for alias 'kev-0.8b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'kev-4b-cuda-gpu:2' for alias 'kev-4b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'ling-3.0-tiny-cuda-gpu:1' for alias 'ling-3.0-tiny'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': skipping variant 'mai-code-1.1-flash-cuda-gpu:2' for default selection because execution provider 'CUDAExecutionProvider' is unavailable or device capacity is incompatible.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': no variant for alias 'mai-code-1.1-flash' has an available execution provider; variants remain visible for inspection and explicit selection.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'ministral-3-3b-instruct-2512-cuda-gpu:2' for alias 'ministral-3-3b-instruct-2512'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'mistralai-Mistral-7B-Instruct-v0-2-cuda-gpu:2' for alias 'mistral-7b-v0.2'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'mistral-nemo-12b-instruct-cuda-gpu:1' for alias 'mistral-nemo-12b-instruct'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'nemotron-3.5-asr-streaming-0.6b-cuda-gpu:3' for alias 'nemotron-3.5-asr-streaming-0.6b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': skipping variant 'nemotron-3.5-bolt-74b-a9b-cuda-gpu:1' for default selection because execution provider 'CUDAExecutionProvider' is unavailable or device capacity is incompatible.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': no variant for alias 'nemotron-3.5-bolt-74b-a9b' has an available execution provider; variants remain visible for inspection and explicit selection.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'nemotron-speech-streaming-en-0.6b-cuda-gpu:2' for alias 'nemotron-speech-streaming-en-0.6b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'nemotron-speech-streaming-es-0.6b-ft-cuda-gpu:2' for alias 'nemotron-speech-streaming-es-0.6b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'olmo-3-7b-instruct-cuda-gpu:1' for alias 'olmo-3-7b-instruct'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'parakeet-tdt-0.6b-v2-cuda-gpu:1' for alias 'parakeet-tdt-0.6b-v2'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-3-mini-128k-instruct-cuda-gpu:2' for alias 'phi-3-mini-128k'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-3-mini-4k-instruct-cuda-gpu:2' for alias 'phi-3-mini-4k'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-3.5-mini-instruct-cuda-gpu:2' for alias 'phi-3.5-mini'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-4-cuda-gpu:2' for alias 'phi-4'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-4-mini-instruct-cuda-gpu:5' for alias 'phi-4-mini'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-4-mini-reasoning-cuda-gpu:3' for alias 'phi-4-mini-reasoning'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'Phi-4-reasoning-cuda-gpu:1' for alias 'phi-4-reasoning'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-0.5b-instruct-cuda-gpu:4' for alias 'qwen2.5-0.5b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-1.5b-instruct-cuda-gpu:4' for alias 'qwen2.5-1.5b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-14b-instruct-cuda-gpu:4' for alias 'qwen2.5-14b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-7b-instruct-cuda-gpu:4' for alias 'qwen2.5-7b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-coder-0.5b-instruct-cuda-gpu:4' for alias 'qwen2.5-coder-0.5b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-coder-1.5b-instruct-cuda-gpu:4' for alias 'qwen2.5-coder-1.5b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-coder-14b-instruct-cuda-gpu:4' for alias 'qwen2.5-coder-14b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen2.5-coder-7b-instruct-cuda-gpu:4' for alias 'qwen2.5-coder-7b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-0.6b-cuda-gpu:2' for alias 'qwen3-0.6b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-1.7b-cuda-gpu:2' for alias 'qwen3-1.7b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-14b-cuda-gpu:2' for alias 'qwen3-14b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-4b-cuda-gpu:2' for alias 'qwen3-4b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-8b-cuda-gpu:2' for alias 'qwen3-8b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-embedding-0.6b-cuda-gpu:1' for alias 'qwen3-embedding-0.6b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-embedding-8b-cuda-gpu:1' for alias 'qwen3-embedding-8b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-vl-2b-instruct-cuda-gpu:2' for alias 'qwen3-vl-2b-instruct'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-vl-4b-instruct-cuda-gpu:2' for alias 'qwen3-vl-4b-instruct'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3-vl-8b-instruct-cuda-gpu:2' for alias 'qwen3-vl-8b-instruct'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3.5-0.8b-cuda-gpu:4' for alias 'qwen3.5-0.8b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3.5-2b-cuda-gpu:4' for alias 'qwen3.5-2b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3.5-2b-text-cuda-gpu:1' for alias 'qwen3.5-2b-text'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3.5-4b-cuda-gpu:4' for alias 'qwen3.5-4b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'qwen3.5-9b-cuda-gpu:4' for alias 'qwen3.5-9b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': skipping variant 'qwen3.8-27b-cuda-gpu:1' for default selection because execution provider 'CUDAExecutionProvider' is unavailable or device capacity is incompatible.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': no variant for alias 'qwen3.8-27b' has an available execution provider; variants remain visible for inspection and explicit selection.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'smollm3-3b-cuda-gpu:1' for alias 'smollm3-3b'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'openai-whisper-base-cuda-gpu:3' for alias 'whisper-base'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'openai-whisper-large-v3-turbo-cuda-gpu:3' for alias 'whisper-large-v3-turbo'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'openai-whisper-medium-cuda-gpu:3' for alias 'whisper-medium'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'openai-whisper-small-cuda-gpu:3' for alias 'whisper-small'.
+[info] Catalog 'https://api.catalog.azureml.ms/asset-gallery/v1.0/models': selected default variant 'openai-whisper-tiny-cuda-gpu:3' for alias 'whisper-tiny'.
+[info] model qwen2.5-0.5b-instruct-cuda-gpu:4 using main decoder provider options from genai_config.json (provider=cuda)
+[info] model loaded successfully: qwen2.5-0.5b-instruct-cuda-gpu:4
+<home>\AppData\Local\Temp\claude\cc8d07fb05cb51fa\0e8cc487-2c82-4f99-8712-e578f0b346c5\scratchpad\ep_evidence.py:14: DeprecationWarning: The OpenAI direct client is deprecated and will be removed at the end of 2026; use ChatSession. OpenAI types remain supported for the web-server path.
+  r = v.get_chat_client().complete_chat([{"role": "user", "content": "Say hi in one word."}])
+[info] unloading model: qwen2.5-0.5b-instruct-cuda-gpu:4
+[info] Shutdown requested
+[info] SessionManager: cancelling all sessions (0 active)
+[info] Manager is being disposed.
+All EPs registered
+reply: b'Hello.'
